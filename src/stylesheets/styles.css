@@ -1,26 +1,13 @@
-html{
-    background: #000000;
-}
-
-video{
-    width: 100px;
-    height: auto;   
+body {
+    background-color: #3f3f3f;
 }
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-  }
-
-.video-container video,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    width: 100%;
 }
